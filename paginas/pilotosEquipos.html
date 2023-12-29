@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans&family=Poppins:wght@100&display=swap"
+        rel="stylesheet">
+    <!--bootstrap-->
+    <link rel="stylesheet" href="../bootstrap-5.2.3-dist/css/bootstrap.min.css">
+    <!-- css -->
+    <link rel="stylesheet" href="../estilos/style.css">
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <img class="navbarimg" src="../multimedia/imagenes/logonuevo.png"alt="logo World Rally Championship " width="100px"
+                height="100">
+            <ul class="list">
+                <li><a href="./index.html">INICIO</a></li>
+                <li><a href="./noticias.html">NOTICIAS</a></li>
+                <li><a href="./calendario.html">CALENDARIO</a></li>
+                <li><a href="./resltadosClasifiacion.htm">RESULTADOS Y CLASIFICACIONES</a></li>
+                <li><a href="./pilotosEquipos.html">PILOTOS Y EQUIPOS</a></li>
+                <li><a href="./tienda.html">TIENDA</a></li>
+            </ul>
+            <div class="menu">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list"
+                    viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+                </svg>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- tarjetas equipos -->
+        <div class="TarjetasEquipos">
+            <!-- Tarjeta ford -->
+            <div class="card" style="width: 18rem;">
+                <img src="../multimedia/imagenes/equipo ford.jpg" class="cardImg" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">M-Sport Ford World Rally Team</h5>
+                    <p class="card-text">Fundado por el ex piloto del equipo oficial de Ford, Malcolm Wilson, M-Sport
+                        fue seleccionado para dar una nueva vida al programa del Campeonato del Mundo de Rallyes para
+                        Ford en 1997...</p>
+                    <a class="btn btn-secondary" data-bs-toggle="collapse" href="#infoFord" role="button"
+                        aria-expanded="false" aria-controls="collapseExample">Conocer Pilotos</a>
+                </div>
+                <!-- Pilotos ford-->
+                <div class="collapse" id="infoFord">
+                    <div class="cardPilotos">
+                        <h3>Pierre-Louis Loubet</h3>
+                        <img src="../multimedia/imagenes/Elfyn Evans.jpg" alt="" width="50px" height="50px">
+                        <p>Piloto <br> Pais:Belgium. <br> Rally wins: 5.</p>
+                    </div>
+                    <div class="cardPilotos">
+                        <h3>Jourdan Serderidis</h3>
+                        <img src="../multimedia/imagenes/jourdan serderidis.jpg" alt="" width="50px" height="50px">
+                        <p>Piloto <br> Pais: Greece. <br> Rally wins: 2.</p>
+                    </div>
+                    <div class="cardPilotos">
+                        <h3>Ott Tanak</h3>
+                        <img src="../multimedia/imagenes/Ott Tanak.jpg" alt="" width="50px" height="50px">
+                        <p>Piloto <br> Pais: Estonia. <br>Rally wins: 18 <br>World Champion Titles: 1.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Tarjeta Hyundai -->
+            <div class="card" style="width: 18rem;">
+                <img src="../multimedia/imagenes/equipo hyundai.jpg" class="cardImg" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">HYUNDAI SHELL MOBIS WORLD RALLY TEAM</h5>
+                    <p class="card-text">Hyundai regresó al WRC en 2014 con un equipo totalmente nuevo y con planes muy
+                        ambiciosos a largo plazo para intentar ser campeones en la categoría reina de los rallyes.</p>
+                    <a class="btn btn-secondary" data-bs-toggle="collapse" href="#infoHyundai" role="button"
+                        aria-expanded="false" aria-controls="collapseExample">Conocer Pilotos</a>
+                </div>
+                <!-- Pilotos Hyundai -->
+                <div class="collapse" id="infoHyundai">
+                    <div class="cardPilotos">
+                        <h3>Thierry Neuville</h3>
+                        <img src="../multimedia/imagenes/Thierry Neuville.jpg" alt="" width="50px" height="50px">
+                        <p>Piloto <br> Pais:Belgium. <br> Rally wins: 18.</p>
+                    </div>
+                    <div class="cardPilotos">
+                        <h3>Dani Sordo</h3>
+                        <img src="../multimedia/imagenes/Dani Sordo.jpg" alt="" width="50px" height="50px">
+                        <p>Piloto <br> Pais: Spain. <br> Rally wins: 3.</p>
+                    </div>
+                    <div class="cardPilotos">
+                        <h3>Esapekka Lappi</h3>
+                        <img src="../multimedia/imagenes/esapekka lappi.jpg" alt="" width="50px" height="50px">
+                        <p>Piloto <br> Pais:Finland. <br>Rally wins: 1</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Tarjeta toyota -->
+            <div class="card" style="width: 18rem;">
+                <img src="../multimedia/imagenes/equipo toyota.jpg" class="cardImg" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">TOYOTA GAZOO RACING WORLD RALLY TEAM</h5>
+                    <p class="card-text">Los orígenes de la marca japonesa en el mundo de los rallyes se remontan a
+                        1957, cuando participó en el Mobilgas Round Australia Rally y luego de varios años sin
+                        competir,vuelve al campeonato en el año 2015</p>
+                    <a class="btn btn-secondary" data-bs-toggle="collapse" href="#infoToyota" role="button"
+                        aria-expanded="false" aria-controls="collapseExample">Conocer Pilotos</a>
+                </div>
+                <!-- Pilotos toyota-->
+                <div class="collapse" id="infoToyota">
+                    <div class="cardPilotos">
+                        <h3>Jari-Matti Latvala</h3>
+                        <img src="../multimedia/imagenes/Jari-Matti Latvala.jpg" alt="" width="50px" height="50px">
+                        <p>Piloto <br> Pais:Finland. <br> Rally wins: 7.</p>
+                    </div>
+                    <div class="cardPilotos">
+                        <h3>Sebastien Ogier</h3>
+                        <img src="../multimedia/imagenes/sebastien ogier.jpg" alt="" width="50px" height="50px">
+                        <p>Piloto <br> Pais: France. <br> Rally wins: 58<br>World Champion Titles: 8.</p>
+                    </div>
+                    <div class="cardPilotos">
+                        <h3>Kalle Rovanpera</h3>
+                        <img src="../multimedia/imagenes/kalle Rovanpera.jpg" alt="" width="50px" height="50px">
+                        <p>Piloto. <br> Pais: Finland. <br>Rally wins: 9. <br>World Champion Titles: 1.</p>
+                    </div>
+                </div>
+            </div>
+
+    </main>
+    <footer>
+        <div>
+            <a href="https://performance.ford.com/" target="_blank">
+                <img width="100px" height="100px" src="../multimedia/imagenes/ford.png" alt="logo ford">
+            </a>
+        </div>
+        <div>
+            <a href="https://www.toyotagazooracing.com.ar/" target="_blank">
+                <img width="100px" height="100px" src="../multimedia/imagenes/toyota.png" alt="logo ford">
+            </a>
+        </div>
+        <div>
+            <a href="https://www.hyundai.com.ar/rally" target="_blank">
+                <img width="100px" height="100px" src="../multimedia/imagenes/hyundai.png" alt="logo hyundai">
+            </a>
+        </div>
+    </footer>
+    <script src="../bootstrap-5.2.3-dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

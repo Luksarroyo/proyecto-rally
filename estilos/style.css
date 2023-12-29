@@ -1,0 +1,154 @@
+/* genearl */
+body {
+  font-family: "Playpen Sans", cursive;
+  background-color: #72afc1;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1,
+h2 {
+  color: #0a082d;
+  text-align: center;
+}
+h3 {
+  color: #16446a;
+}
+/* navbar */
+.navbar {
+  background-color: #16446a;
+  display: flex;
+
+}
+.menu {
+  display: none;
+}
+
+.list {
+  color: #16446a;
+  text-decoration: none;
+  display: flex;
+  float: right;
+  margin-right: 19px;
+}
+
+ul li {
+  list-style: none;
+}
+a {
+  padding: 5px;
+  text-decoration: none;
+}
+.navbarimg{
+  margin-left: 5px;
+}
+/* body index*/
+.video-index {
+  float: left;
+}
+
+.super-especial {
+  width: 300px;
+  height: 200px;
+  float: right;
+}
+.ultima-etapa {
+  display: flex;
+  
+}
+/* body noticias */
+.tarjetas {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  max-width: 100%;
+  margin: 10px 50px;
+}
+
+.card {
+  background-color: #94b6d1;
+}
+.btn {
+  background-color: #16446a;
+}
+/* body calendario */
+.container-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.card-calendario {
+  background-color: #94b6d1;
+  width: calc(
+    25% - 10px
+  ); /* El ancho de cada tarjeta, con 10px de espacio entre ellas */
+  margin-bottom: 10px; /* Espacio entre las filas de tarjetas */
+  border: 3px solid #0a082d;
+  padding: 10px;
+  box-sizing: border-box;
+}
+/* main pilotos y equipos */
+.TarjetasEquipos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  max-width: 100%;
+  margin: 10px 50px;
+}
+.cardPilotos {
+  background-color: #94b6d1;
+  border: 3px solid #0a082d;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* main Resultados */
+.tablaResultados {
+  margin: 50px 100px;
+}
+.tablaResultados,
+tr,
+th,
+td {
+  text-align: center;
+  border: 1px solid #0a082d;
+  background-color: #94b6d1;
+}
+td {
+  width: 50rem;
+}
+th {
+  color: #0a082d;
+}
+/* footer */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #16446a;
+  margin: 100px 0 0;
+}
+
+@media (max-width: 768px) {
+  /*navbar*/
+  .menu {
+    display: block;
+    float: left;
+    padding: 12px;
+  }
+  .list {
+    display: none;
+  }
+  /*footer*/
+  .ultima-etapa {
+    float: left;
+  }
+
+  /* main noticias */
+  .tarjetas {
+    display: block;
+  }
+  .TarjetasEquipos {
+    display: block;
+  }
+}
